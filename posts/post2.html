@@ -39,7 +39,7 @@
 <body>
   <header class="site-header" role="banner">
 
-    <div class="wrapper"><a class="site-title" rel="author" href="/">CoffeeSeven by Jeremy Ang</a>
+    <div class="wrapper"><a class="site-title" rel="author" href="/">CoffeeSeven</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -58,9 +58,79 @@
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <div class="home">
-        <h2 class="post-list-heading">CCNA Study resources</h2>
+        <h1 class="post-list-heading">Computer Networking Overview</h1>
+        <h2>OSI Model</h2>
         <p>
-            
+          Textbook 7 layer model - Open Systems Interconnect (OSI)
+
+          Physical
+          Data Link
+          Network
+          Transport
+          Session
+          Presentation
+          Application
+        </p>
+        <h2>TCP/IP</h2>
+        <p>
+          Real-world 5 layer model:<br>
+          Physical<br>
+          Datalink<br>
+          Network<br>
+          Transport<br>
+          Application
+        </p>
+        <p>
+          <h2>Diagram</h2>
+          <table>
+            <tr>
+              <td colspan="4"><b>OSI Model & TCP/IP Model</b></td>
+            </tr>
+            <tr>
+              <td>TCP/IP</td>
+              <td>OSI</td>
+              <td>PDU</td>
+              <td>Protocols</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Application Layer</td>
+              <td>7. Application Layer</td>
+              <td rowspan="3">Data</td>
+              <td rowspan="3">DNS,HTTP,DHCP,HTTPS,FTP,
+                RTP,SSH,Telnet,SSH </td>
+            </tr>
+            <tr>
+              <td>6. Presentation Layer</td>
+            </tr>
+            <tr>
+              <td>5. Session Layer</td>
+            </tr>
+            <tr>
+              <td>Transport Layer</td>
+              <td>4. Transport Layer</td>
+              <td>Segments</td>
+              <td>TCP,UDP</td>
+            </tr>
+            <tr>
+              <td>Internet Layer</td>
+              <td>3. Network Layer</td>
+              <td>Packets</td>
+              <td>IP,ICMP,ARP,DHCP</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Link Layer</td>
+              <td>2. Data Link Layer</td>
+              <td>Frames</td>
+              <td rowspan="2">Ethernet,PPP</td>
+            </tr>
+            <tr>
+              <td>1. Physical Layer</td>
+              <td>Bits</td>
+            </tr>
+          </table>
+
+          <p>An Mnemonic for easier memorize is (P)lease (D)o (N)ot (T)hrow (S)amsung (P)hone (A)way.</p>
+
         </p>
     </div>
   </main>
